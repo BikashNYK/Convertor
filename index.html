@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="wrapper">
+        <div class="input">
+            <div class="w-100">
+                <!-- from dropdown -->
+                <select name="" id="from" class="input-field">
+                    <option value="2">Binary</option>
+                    <option value="8">Octal</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">HexaDecimal</option>
+                </select>
+            </div>
+            <div class="w-100">
+                <!-- to dopdown -->
+                <select name="" id="to" class="input-field">
+                    <option value="2">Binary</option>
+                    <option value="8">Octal</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">HexaDecimal</option>
+                </select>
+            </div>
+        </div>
+        <div class="w-100">
+            <!-- input -->
+            <input type="text" id="input-box" placeholder="Enter Value" class="input-field">
+        </div>
+        <div class="btn">
+            <button id="convert">Convert</button>
+            <button id="swap">Swap</button>
+        </div>
+        <div id="result-box">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
